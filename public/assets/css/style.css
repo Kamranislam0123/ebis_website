@@ -1,6 +1,110 @@
-a {
-   text-decoration: none;
+/* Font Family Declarations */
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+/* For headings and titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.hero-title {
+    font-family: "Rubik", sans-serif;
 }
 
 
-  
+
+/* For body text and general content */
+body,
+p,
+.hero-description {
+    font-family: "Rubik", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero_slider {
+    position: relative;
+    height: 100vh;
+}
+
+.hero_slider .carousel {
+    height: 100%;
+}
+
+.hero_slider .carousel-inner {
+    height: 100%;
+}
+
+.hero_slider .carousel-item {
+    height: 100%;
+}
+
+.hero-container {
+    position: relative;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e53e3e;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Adjusts the space between the text and the icon */
+    max-width: 180px; /* Adjust this to control button width */
+    width: auto; /* Button width adjusts based on content */
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    justify-content: center; /* Centers the text horizontally */
+    line-height: 1.2; /* Ensures text is vertically aligned */
+}
+.btn svg {
+    width: 18px; /* Adjust the size of the icon */
+    height: 18px; /* Adjust the size of the icon */
+    margin-left: 8px; /* Space between text and icon */
+}
+
+.btn:hover {
+    background-color: #c62828;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.carousel-control-next{
+    align-items: end;
+}
